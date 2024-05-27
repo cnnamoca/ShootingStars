@@ -13,7 +13,7 @@ struct ContentView: View {
             Circle()
                 .fill(.white)
                 .blur(radius: 5)
-                .opacity(0.1)
+                .opacity(0.3)
                 .frame(width: UIScreen.main.bounds.width * 0.8, height: UIScreen.main.bounds.width * 0.8)
                 .overlay {
                     ShootingStarView()
